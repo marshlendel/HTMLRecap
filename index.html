@@ -7,8 +7,8 @@
     <title>HTML Recap</title>
   </head>
   <body>
-    <header>
-      <nav>
+    <header style="text-align: center; background-color: crimson">
+      <nav style="text-align: right">
         <a href="#">Locations</a>
         <a href="#">About Us</a>
         <a href="#">Our real(ish) Ingredients</a>
@@ -21,88 +21,128 @@
     </header>
     <main>
       <section style="width: 75%; background-color: peachpuff; float: left">
-          <h2>Build your masterpiece</h2>
-          <form
-            action="https://themarketingpeople.com/wp-content/uploads/2015/11/Blog4.png"
-          >
-            <fieldset>
-              <legend>Your information</legend>
-              <div>
-                <label for="name">Name :</label>
-                <input type="text" id="name" name="name"/>
-              </div>
-              <div>
-                <label for="phone">Phone number: </label>
-                <input type="tel" id="phone" />
-              </div>
-              <div>
-                <label for="address">Address: </label>
-                <input type="text" id="address" />
-              </div>
-            </fieldset>
-            <fieldset>
-                <legend>Choose crust</legend>
-                <div>
-                <input type="radio" name="crust" id="thin" value="thin">
-                <label for="thin">Thin Crust</label>
-            </div>
-            <div>x
-                <input type="radio" name="crust" id="original" value="original">
-                <label for="original">Original Crustl</label>
+        <h2>Build your masterpiece</h2>
+        <form
+          action="https://themarketingpeople.com/wp-content/uploads/2015/11/Blog4.png"
+        >
+          <fieldset>
+            <legend>Your information</legend>
+            <div>
+              <label for="name">Name :</label>
+              <input type="text" id="name" name="name" />
             </div>
             <div>
-                <input type="radio" name="crust" id="stuffed" value="stuffed">
-                <label for="stuffed">Stuffed Crust</label>
-            </div>
-            </fieldset>
-            <fieldset>
-                <legend>Toppings</legend>
-                <div>
-                <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
-                <label for="pepperoni">Pepperoni</label>
+              <label for="phone">Phone number: </label>
+              <input type="tel" id="phone" />
             </div>
             <div>
-                <input type="checkbox" id="sausage" name="toppings" value="sausage">
-                <label for="sausage">Sausage</label>
+              <label for="address">Address: </label>
+              <input type="text" id="address" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Choose crust</legend>
+            <div>
+              <input type="radio" name="crust" id="thin" value="thin" />
+              <label for="thin">Thin Crust</label>
             </div>
             <div>
-                <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
-                <label for="mushrooms">Mushrooms</label>
+              <input type="radio" name="crust" id="original" value="original" />
+              <label for="original">Original Crust</label>
             </div>
             <div>
-                <input type="checkbox" id="onions" name="toppings" value="onions">
-                <label for="onions">Onions</label>
+              <input type="radio" name="crust" id="stuffed" value="stuffed" />
+              <label for="stuffed">Stuffed Crust</label>
             </div>
-            </fieldset>
-            <button type="submit">Submit your order</button>
-          </form>
+          </fieldset>
+          <fieldset>
+            <legend>Toppings</legend>
+            <div>
+              <input
+                type="checkbox"
+                id="pepperoni"
+                name="toppings"
+                value="pepperoni"
+              />
+              <label for="pepperoni">Pepperoni</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="sausage"
+                name="toppings"
+                value="sausage"
+              />
+              <label for="sausage">Sausage</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="mushrooms"
+                name="toppings"
+                value="mushrooms"
+              />
+              <label for="mushrooms">Mushrooms</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="onions"
+                name="toppings"
+                value="onions"
+              />
+              <label for="onions">Onions</label>
+            </div>
+          </fieldset>
+          <button type="submit">Submit your order</button>
+        </form>
       </section>
 
-      <article style="width: 25%; background-color: peru">
+      <article
+        style="
+          width: 25%;
+          background-color: peru;
+          float: right;
+          text-align: center;
+        "
+      >
         <h2>What the people have to Say!</h2>
         <section>
-        <h4>Original poster</h4>
-        <p>This pizza rocked my socks off man! This really hit different</p>
-        <small>Posted on <time datetime="2021-04-24">April 24</time> by Danny Boy</small>
-    </section>
-    <hr>
-    <section>
-        <h4>Replies</h4>
-        <p>I dunno, man. My pizza was pretty cold on delivery</p>
-        <small>Posted on <time datetime="2021-04-25">April 25</time> by Joshua</small>
-        <p>It was pretty good, don't know what Joshua is talking about. Mine was steamin' hot when it came!</p>
-        <small>Posted on <time datetime="2021-04-27">April 27</time> by Joshua</small>
-    </section>
+          <h4>Original poster</h4>
+          <p>This pizza rocked my socks off man! This really hit different</p>
+          <small
+            >Posted on <time datetime="2021-04-24">April 24</time> by Danny
+            Boy</small
+          >
+        </section>
+        <hr />
+        <section>
+          <h4>Replies</h4>
+          <p>I dunno, man. My pizza was pretty cold on delivery</p>
+          <small
+            >Posted on <time datetime="2021-04-25">April 25</time> by
+            Joshua</small
+          >
+          <p>
+            It was pretty good, don't know what Joshua is talking about. Mine
+            was steamin' hot when it came!
+          </p>
+          <small
+            >Posted on <time datetime="2021-04-27">April 27</time> by
+            Kevin</small
+          >
+        </section>
       </article>
-
-      <h2>This Could be yours</h2>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/UdIo6wY8zz4"
-        frameborder="0"
-        allowfullscreen
-      ></iframe>
     </main>
+    <footer style="background-color: goldenrod; clear: both; text-align: center;">
+        <h2>This Could be yours</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/UdIo6wY8zz4"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </footer>
   </body>
 </html>
