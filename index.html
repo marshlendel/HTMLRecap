@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Recap</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Locations</a>
+        <a href="#">About Us</a>
+        <a href="#">Our real(ish) Ingredients</a>
+      </nav>
+      <h1>Welcome to Lendel's Pizza</h1>
+      <p>
+        We got anything and everything you could want on pizza. Except for the
+        stuff we don't have lol.
+      </p>
+    </header>
+    <main>
+      <section style="width: 75%; background-color: peachpuff; float: left">
+          <h2>Build your masterpiece</h2>
+          <form
+            action="https://themarketingpeople.com/wp-content/uploads/2015/11/Blog4.png"
+          >
+            <fieldset>
+              <legend>Your information</legend>
+              <div>
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="name"/>
+              </div>
+              <div>
+                <label for="phone">Phone number: </label>
+                <input type="tel" id="phone" />
+              </div>
+              <div>
+                <label for="address">Address: </label>
+                <input type="text" id="address" />
+              </div>
+            </fieldset>
+            <fieldset>
+                <legend>Choose crust</legend>
+                <div>
+                <input type="radio" name="crust" id="thin" value="thin">
+                <label for="thin">Thin Crust</label>
+            </div>
+            <div>x
+                <input type="radio" name="crust" id="original" value="original">
+                <label for="original">Original Crustl</label>
+            </div>
+            <div>
+                <input type="radio" name="crust" id="stuffed" value="stuffed">
+                <label for="stuffed">Stuffed Crust</label>
+            </div>
+            </fieldset>
+            <fieldset>
+                <legend>Toppings</legend>
+                <div>
+                <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+                <label for="pepperoni">Pepperoni</label>
+            </div>
+            <div>
+                <input type="checkbox" id="sausage" name="toppings" value="sausage">
+                <label for="sausage">Sausage</label>
+            </div>
+            </fieldset>
+          </form>
+      </section>
+
+      <section style="width: 25%; background-color: peru"></section>
+
+      <h2>This Could be yours</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/UdIo6wY8zz4"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </main>
+  </body>
+</html>
